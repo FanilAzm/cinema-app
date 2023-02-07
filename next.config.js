@@ -10,11 +10,11 @@ const nextConfig = {
 		return [
 			{
 				source: '/api/:path*',
-				destination: `https://cinema-api-lake.vercel.app/api/:path*`,
+				destination: `https://https://cinema-api-delta.vercel.app/api/:path*`,
 			},
 			{
 				source: '/uploads/:path*',
-				destination: `https://cinema-api-lake.vercel.app/uploads/:path*`,
+				destination: `https://https://cinema-api-delta.vercel.app/uploads/:path*`,
 			},
 		]
 	},
