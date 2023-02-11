@@ -1,3 +1,4 @@
+import { log } from 'console'
 import Image from 'next/image'
 import { useRouter } from 'next/router'
 import { FC } from 'react'
@@ -12,6 +13,8 @@ interface ISlideItem {
 
 const SlideItem: FC<ISlideItem> = ({ slide, buttonTitle = 'Watch' }) => {
 	const { push } = useRouter()
+
+	console.log(slide)
 
 	return (
 		<div className={styles.slide}>
