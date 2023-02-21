@@ -9,7 +9,7 @@ import { errorCatch } from './api.helpers'
 import { API_SERVER_URL, API_URL } from '@/config/api.config'
 
 const instance = axios.create({
-	baseURL: API_URL,
+	baseURL: IS_PRODUCTION ? API_SERVER_URL : API_URL,
 	headers: {
 		'Content-Type': 'application/json',
 	},
