@@ -35,7 +35,7 @@ const UploadField: FC<IUploadField> = ({
 						) : (
 							value && (
 								<Image
-									src={`https://cinema-back-fanilazm.vercel.app/api${value}`}
+									src={`https://cinema-app-bice.vercel.app${value}`}
 									alt=""
 									fill
 									unoptimized

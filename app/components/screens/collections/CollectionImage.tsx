@@ -9,7 +9,7 @@ const CollectionImage: FC<{ collection: ICollection }> = ({
 	return (
 		<Image
 			alt={title}
-			src={`https://cinema-back-fanilazm.vercel.app/api${image}`}
+			src={`https://cinema-app-bice.vercel.app${image}`}
 			fill
 			draggable={false}
 		/>

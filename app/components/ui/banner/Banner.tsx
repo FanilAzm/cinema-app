@@ -12,7 +12,7 @@ const Banner: FC<IBanner> = ({ image, Detail }) => {
 	return (
 		<div className={styles.banner}>
 			<Image
-				src={`https://cinema-back-fanilazm.vercel.app/api${image}`}
+				src={`https://cinema-app-bice.vercel.app${image}`}
 				alt=""
 				className="image-like-bg object-top"
 				draggable={false}
