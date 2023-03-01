@@ -14,7 +14,7 @@ const SearchList: FC<{ movies: IMovie[] }> = ({ movies }) => {
 				movies.map((movie) => (
 					<Link key={movie._id} href={getMovieUrl(movie.slug)}>
 						<Image
-							src={movie.poster}
+							src={`https://cinema-back-fanilazm.vercel.app/api${movie.poster}`}
 							width={50}
 							height={50}
 							alt={movie.title}

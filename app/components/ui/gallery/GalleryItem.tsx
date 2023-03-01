@@ -17,7 +17,7 @@ const GalleryItem: FC<IGalleryItemProps> = ({ item, variant }) => {
 			})}
 		>
 			<Image
-				src={item.posterPath}
+				src={`https://cinema-back-fanilazm.vercel.app/api${item.posterPath}`}
 				alt={item.name}
 				draggable={false}
 				fill

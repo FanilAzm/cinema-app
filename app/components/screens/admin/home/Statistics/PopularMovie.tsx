@@ -35,7 +35,7 @@ const PopularMovie: FC = () => {
 							<Image
 								width={285}
 								height={176}
-								src={movie.bigPoster}
+								src={`https://cinema-back-fanilazm.vercel.app/api${movie.bigPoster}`}
 								alt={movie.title}
 								className={styles.image}
 								unoptimized
