@@ -18,7 +18,7 @@ const SlideItem: FC<ISlideItem> = ({ slide, buttonTitle = 'Watch' }) => {
 			{slide.bigPoster && (
 				<Image
 					className={styles.image}
-					src={`https://cinema-back-fanilazm.vercel.app${slide.bigPoster}`}
+					src={`https://cinema-back-fanilazm.vercel.app/api${slide.bigPoster}`}
 					alt={slide.title}
 					fill
 					draggable={false}
