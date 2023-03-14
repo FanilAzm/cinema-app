@@ -33,14 +33,7 @@ const UploadField: FC<IUploadField> = ({
 						{isLoading ? (
 							<SkeletonLoader count={1} className="w-full h-full" />
 						) : (
-							value && (
-								<Image
-									src={`https://cinema-app-bice.vercel.app${value}`}
-									alt=""
-									fill
-									unoptimized
-								/>
-							)
+							value && <Image src={value} alt="" fill unoptimized />
 						)}
 					</div>
 				)}

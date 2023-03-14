@@ -17,7 +17,7 @@ const MovieItem: FC<{ movie: IMovie }> = ({ movie }) => {
 				<Image
 					width={65}
 					height={97}
-					src={`https://cinema-app-bice.vercel.app${movie.poster}`}
+					src={movie.poster}
 					alt={movie.title}
 					draggable={false}
 					priority

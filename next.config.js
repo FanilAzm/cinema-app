@@ -10,12 +10,12 @@ const nextConfig = {
 		return [
 			{
 				source: '/api/:path*',
-				destination: `https://cinema-back-fanilazm.vercel.app/api/:path*`,
+				destination: `https://cinema-back-production.up.railway.app/:path*`,
 				// destination: `http://localhost:4200/api/:path*`,
 			},
 			{
 				source: '/uploads/:path*',
-				destination: `https://cinema-back-fanilazm.vercel.app/uploads/:path*`,
+				destination: `https://cinema-back-production.up.railway.app/uploads/:path*`,
 				// destination: `http://localhost:4200/uploads/:path*`,
 			},
 		]

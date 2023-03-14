@@ -17,7 +17,7 @@ const GalleryItem: FC<IGalleryItemProps> = ({ item, variant }) => {
 			})}
 		>
 			<Image
-				src={`https://cinema-app-bice.vercel.app${item.posterPath}`}
+				src={item.posterPath}
 				alt={item.name}
 				draggable={false}
 				fill

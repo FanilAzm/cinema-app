@@ -20,7 +20,7 @@ const FavoriteItem: FC<{ movie: IMovie }> = ({ movie }) => {
 			<Link href={getMovieUrl(movie.slug)} className={styles.item}>
 				<Image
 					alt={movie.title}
-					src={`https://cinema-app-bice.vercel.app${movie.poster}`}
+					src={movie.poster}
 					fill
 					draggable={false}
 					priority

@@ -35,7 +35,7 @@ const PopularMovie: FC = () => {
 							<Image
 								width={285}
 								height={176}
-								src={`https://cinema-app-bice.vercel.app${movie.bigPoster}`}
+								src={movie.bigPoster}
 								alt={movie.title}
 								className={styles.image}
 								unoptimized
